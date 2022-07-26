@@ -53,7 +53,7 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-ROOT_URLCONF = 'heroes_villains.urls'
+ROOT_URLCONF = 'heroes_villains_project.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'heroes_villains.wsgi.application'
+WSGI_APPLICATION = 'heroes_villains_project.wsgi.application'
 
 
 
